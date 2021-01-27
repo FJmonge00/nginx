@@ -1,5 +1,6 @@
 <img src="../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
+# Comparativa entre Apache y Nginx
 
 Mientras que Apache abre un nuevo proceso o hilo para cada solicitud del cliente, nginx trabaja enfocado a eventos. Esssto hace que puede procesar solicitudes de forma asíncrona, ahorrando memoria y espacio. Este software de servidor es puede ser usado en GNU/Linux, Mac OS o Windows.
 
