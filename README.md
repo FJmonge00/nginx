@@ -7,7 +7,7 @@ El proyecto consiste en estudiar el servidor web Nginx.*Asignatura: SRI*
 ## Índice
 ### [1.- Introducción.](documentacion/introduccion.md)
 ### [2.- Comparativa con Apache.](documentacion/ComparativaConApache.md)
-### [3.- Esquema de red..](documentacion/EsquemaDeRed.md)
+### [3.- Esquema de red.](documentacion/EsquemaDeRed.md)
 ### [4.- Casos prácticos.](documentacion/CasosPracticos.md)
 ### [5.- Referencias.](documentacion/referencias.md)
 
