@@ -2,7 +2,9 @@
 
 ## Referencias
 - <https://docs.bluehosting.cl>
+- <https://www.redeszone.ne>
 - <https://markdown.es>
-- <https://www.ionos.es/digitalguide/servidores/configuracion/nginx-conceptos-basicos-instalacion-y-configuracion/> 
+- <https://httpd.apache.org> 
+- <https://www.ionos.es> 
 ________________________________________
 *[Volver al índice...](../README.md)*
