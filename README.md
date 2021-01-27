@@ -1,6 +1,6 @@
-<img src="../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
+<img src="./imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
-![logo nginx](/imagenes/NginxLogo.png)
+![logo nginx](./imagenes/NginxLogo.png)
 ## Descripción
 El proyecto consiste en estudiar el servidor web Nginx.*Asignatura: SRI*
 
