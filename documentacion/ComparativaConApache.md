@@ -8,12 +8,12 @@ Mientras que Apache abre un nuevo proceso o hilo para cada solicitud del cliente
 
 |Caracteŕistica  |Apache  |Nginx  |
 |---------|---------|---------|
-|Contenido estático/dinámico|Apache es flexible y puede manejar contenido estático y dinámico sin problemas mediante el uso de [MPMs](https://httpd.apache.org/docs/2.4/es/mpm.html), en ocasiones, con un alto costo en recursos.|Nginx maneja el contenido estático muy rápidamente debido a su arquitectura. Para manejar contenido dinámico debe usar un componente externo.|
-|Row2     |Apache puede usar archivos ocultos. Por defecto, utiliza las directivas en el archivo .htaccess, lo que permite descentralizar la configuración de Apache, facilitando su implementación incluso cuando no tiene acceso a los archivos .conf dentro del servidor.|Nginx debe ser configurado desde los archivos fuente, en otras palabras, el acceso a su configuración es absolutamente centralizado|
-|Row3     |         |         |
-|Row4     |         |         |
-|Row5     |         |         |
-|Row6     |         |         |
+|**Contenido estático/dinámico**|Apache es flexible y puede manejar contenido estático y dinámico sin problemas mediante el uso de [MPMs](https://httpd.apache.org/docs/2.4/es/mpm.html), en ocasiones, con un alto costo en recursos.|Nginx maneja el contenido estático muy rápidamente debido a su arquitectura. Para manejar contenido dinámico debe usar un componente externo.|
+|**Configuración**|Apache puede usar archivos ocultos. Por defecto, utiliza las directivas en el archivo .htaccess, lo que permite descentralizar la configuración de Apache, facilitando su implementación incluso cuando no tiene acceso a los archivos .conf dentro del servidor.|Nginx debe ser configurado desde los archivos fuente, en otras palabras, el acceso a su configuración es absolutamente centralizado|
+|**Arquitectura**|Flexible a través de módulos, puede estar basado en hilos, procesos o eventos|Arquitectura basada en eventos. Procesamiento asíncrono.|
+|**Rendimiento**|El uso de memoria y CPU generalmente es bueno, pero depende de la configuración y selección de módulos.Puede fallar cuando existe alto tráfico (muchas solicitudes concurrentes).|Mejora el rendimiento considerablemente. Debido a la eficiencia de su algoritmo y arquitectura suele consumir menos recursos incluso en picos de sesiones concurrentes.|
+|**Características y prestaciones**|Soporte para lenguajes de programación del lado del servidor; soporte de interfaces de lenguajes comunes como Perl, Python y PHP; módulos útiles de autenticación; soporte para SSL/TLS; módulos para proxy; archivos log personalizables; soporte de filtros; reescritura de URL; hosting virtual que permite que el mismo servidor sirva distintos sitios web; métodos de compresión como gzip; entre otras.|Sirve archivos estáticos; soporte SSL/TLS; proxy inverso; balanceo de carga; compresión; control de acceso; reescritura de URL; registro de logs personalizado; hosting virtual que permite que el mismo servidor sirva distintos sitios web; entre otros.|
+|**Documentación y soporte**|Ampliamente documentado(guías, manuales, tutoriales e incluso libros).*Al mantenerse como una plataforma gratuita, no provee servicios de soporte*.|Cada vez existe más documentación, pero no es tan abundante como en el caso de Apache. El servicio pago de Nginx plus provee soporte.|
 
 ________________________________________
 *[Volver al índice...](../README.md)*
