@@ -3,7 +3,7 @@
 ![Diagrama de red](../imagenes/diagramaRed.jpg)
 
 |Equipo                |IP          |Red           |
-|----------------------|------------|--------------|
+|:--------------------:|:----------:|:------------:|
 |**Router**            |IP Pública  |N/A           |
 |**Router**            |192.168.2.1 |192.168.2.0/24|
 |**Equipo211**(*Clase*)|Cliente DHCP|192.168.2.0/24|
