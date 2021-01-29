@@ -1,5 +1,5 @@
-<img src="../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
+<img src="../../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
 # Autentificación, Autorización y Control de acceso
 ________________________________________
-*[Volver al índice...](../README.md)*
+*[Volver atrás...](../README.md)*
