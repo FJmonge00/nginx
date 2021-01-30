@@ -69,7 +69,11 @@ server {
 🤔 **¿Tienes Servidor DNS?** 🤔
 > Ya que en este momento no cuento con un servidor DNS donde añadir a la zona directa e inversa de estos 2 nuevos dominios, haré uso del fichero ``/etc/hosts`` :
 
+*Cliente Red externa*
 ![AccesoALaswebs](../../imagenes/ficheroHosts.jpg)
+
+*Cliente Red Interna*
+![AccesoALaswebs](../../imagenes/ficheroHostsClienteInterno.jpg)
 
 ## Accedemos a la Web 1 y 2:
 

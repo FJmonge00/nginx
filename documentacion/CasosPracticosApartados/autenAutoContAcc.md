@@ -32,9 +32,24 @@ server {
 
 [Clic para descargar configuración](../../ficherosConfiguracion/web2.org.EjercicioF.conf)
 
-### Acceso a la web desde fuera de la red interna.
+### Comprobación
 
+#### Cliente-red interna:
+
+Acceso www.web1.org
+![ficheroconfiguracion](../../imagenes/web1RectricionesInterna.jpg)
+
+Acceso www.web2.org
+![ficheroconfiguracion](../../imagenes/web2RectricionesInterna.jpg)
+
+#### Cliente-red externa:
+
+Acceso www.web1.org
+![ficheroconfiguracion](../../imagenes/web1Restricciones.jpg)
+
+Acceso www.web2.org
 ![ficheroconfiguracion](../../imagenes/web2Restricciones.png)
+
 
 ________________________________________
 *[Volver atrás...](../CasosPracticos.md)*
