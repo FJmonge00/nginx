@@ -66,15 +66,6 @@ Acceso www.web2.org:
 
 ### Creamos el directorio privado
 
-```bash
-mkdir /var/www/web1/privado
-chown -R www-data:www-data /var/www/web1/ 
-```
-
-### Crear archivo de usuario de autenticación HTTP
-
-Comenzamos creando un archivo que almacene pares de usuario y contraseña. Usaremos la utilidad de apache ``htpasswd`` para crear este archivo.
-
 #### Paso previo...
 
 Comprobamos que ``apache2-utils`` se encuentra instalado para poder usar ``htpasswd`` .
@@ -88,6 +79,15 @@ apt policy apache2-utils
 ```bash
 apt install apache2-utils
 ```
+
+```bash
+mkdir /var/www/web1/privado
+chown -R www-data:www-data /var/www/web1/ 
+```
+
+#### Crear archivo de usuario de autenticación HTTP
+
+Comenzamos creando un archivo que almacene pares de usuario y contraseña. Usaremos la utilidad de apache ``htpasswd`` para crear este archivo.
 
 #### Creamos usuarios
 
