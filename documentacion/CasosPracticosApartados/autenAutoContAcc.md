@@ -156,7 +156,7 @@ Acceso www.web1.org:
 
 #### Posibles errores
 
->**Importante** En Nginx por defecto esta desactivada la opción de indexar directorios, si no añadimos ningún fichero index en /privado nos dará error `forbiden` no confundir con la alerta de usuario no autorizado. 
+>**Importante** En Nginx por defecto esta desactivada la opción de indexar directorios, si no añadimos ningún fichero index en /privado nos dará error `403 forbidden` no confundir con la alerta de usuario no autorizado. 
 
 ![ficheroconfiguracion](../../imagenes/posibleError.jpg)
 
