@@ -61,7 +61,7 @@ ls -la --color /var/www/
 
 ![ficheros nginx](../imagenes/ficherosConfNginx.png)
 
-### [Página web por defecto](CasosPracticosApartados/paginaWebDefecto.md)
+### [Página web por defecto]
 
 ```bash
 echo "<h1>Bienvenidos a mi servidor web</h1>" > /var/www/html/index.nginx-debian.html
