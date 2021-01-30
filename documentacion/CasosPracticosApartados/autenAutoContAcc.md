@@ -113,7 +113,7 @@ cat /etc/nginx/conf.d/.htpasswd
 
 ### Configuración del Virtual Host de www.web1.org
 
-![ficheroconfiguracion](../../imagenes/coniguracionEjercicioG.png)
+![ficheroconfiguracion](../../imagenes/configuracionEjercicioG.png)
 
 **Quitando los comentarios y lineas en blanco así quedaría nuestro sitio virtual:**
 
@@ -128,7 +128,7 @@ server {
                 try_files $uri $uri/ =404;
                 }
 }
-location /privado/ {
+location /privado {
 		auth_basic           	"Restricted Access!";
     		auth_basic_user_file 	/etc/nginx/conf.d/.htpasswd; 
 	}
@@ -138,16 +138,20 @@ location /privado/ {
 ### Recargarmos el servicio de Nginx
 
 ```bash
-systemctl reload nginx
+systemctl reload nginx.service
+systemctl status nginx.service
 ```
+![ficheroconfiguracion](../../imagenes/servicioEjerG.png)
 
-<!-- ### Comprobación
+### Comprobación
 
 #### Cliente-red externa
 
 Acceso www.web1.org:
 
-![ficheroconfiguracion](../../imagenes/web1Restricciones.jpg) -->
+![ficheroconfiguracion](../../imagenes/configuracionEjercicioG.png)
+
+![ficheroconfiguracion](../../imagenes/configuracionEjercicioG2.png)
 
 ________________________________________
 *[Volver atrás...](../CasosPracticos.md)*
