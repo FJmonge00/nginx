@@ -1,8 +1,9 @@
 <img src="../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
-# Primeros Pasos
+# Casos Prácticos
 <!-- NGINX -T -->
-## Proceso de Instalación
+
+## Primeros pasos
 
 ### Pre-Intalación
 
@@ -30,7 +31,7 @@ apt-get install nginx -y
 systemctl status nginx.service
 ```
 
-## Versión de Nginx instalado.
+### Versión de Nginx instalado.
 
 ```bash
 nginx -v
@@ -38,7 +39,7 @@ nginx -v
 
 ![version nginx](../imagenes/versionNginx.jpg)
 
-## Servicio asociado.
+### Servicio asociado.
 
 ```bash
 systemctl status nginx.service
@@ -50,7 +51,7 @@ systemctl status nginx.service
 ```
 ![servicio nginx](../imagenes/servicioNginx.jpg)
 
-## Ficheros de configuración.
+### Ficheros de configuración.
 
 ```bash
 ls -la --color /etc/nginx/
