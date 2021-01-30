@@ -73,6 +73,8 @@ server {
 
 ## Accedemos a la Web 1 y 2:
 
+*En este momento es accesible por todas las interfaces de red del Servidor Web*
+
 ```bash
 firefox www.web1.org
 firefox www.web2.org
