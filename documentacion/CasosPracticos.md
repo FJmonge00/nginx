@@ -61,14 +61,14 @@ ls -la --color /var/www/
 
 ![ficheros nginx](../imagenes/ficherosConfNginx.png)
 
-### [Página web por defecto]
+### Página web por defecto.
 
 ```bash
 echo "<h1>Bienvenidos a mi servidor web</h1>" > /var/www/html/index.nginx-debian.html
 echo "<h2>Mi nombre es: Fran Monge</h2>" >> /var/www/html/index.nginx-debian.html
 firefox localhost #Para abrir la página con firefox
 ```
-*En principio no es necesario reiniciar el servidor web cada vez que hay un cambio pero si no se actualizará:*
+*En principio no es necesario reiniciar el servicio web cada vez que hay un cambio dentro de los dicheros del DocumentRoot, pero si no se actualizará:*
 
 - Navegador:
     1. Borrar caché del navegador
