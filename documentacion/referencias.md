@@ -7,5 +7,6 @@
 - <https://httpd.apache.org> 
 - <https://www.ionos.es>
 - <https://chachocool.com>
+- <https://kinsta.com>
 ________________________________________
 *[Volver al índice...](../README.md)*

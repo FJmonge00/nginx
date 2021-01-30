@@ -61,9 +61,26 @@ ls -la --color /var/www/
 
 ![ficheros nginx](../imagenes/ficherosConfNginx.png)
 
+### [Página web por defecto](CasosPracticosApartados/paginaWebDefecto.md)
+
+```bash
+echo "<h1>Bienvenidos a mi servidor web</h1>" > /var/www/html/index.nginx-debian.html
+echo "<h2>Mi nombre es: Fran Monge</h2>" >> /var/www/html/index.nginx-debian.html
+firefox localhost #Para abrir la página con firefox
+```
+*En principio no es necesario reiniciar el servidor web cada vez que hay un cambio pero si no se actualizará:*
+
+- Navegador:
+    1. Borrar caché del navegador
+    2. Pestaña de incógnito navegador (*evitamos tener que volver a borrar caché*)
+    3. Ingresamos nuestra dirección ``http://localhost`` 
+- Nginx:
+    - Recargamos el servicio(no habrá cortes en el servicio): ``systemctl reload nginx``
+*ó*
+    - Reiniciamos el servicio (el servicio no estará disponible mientras se reinicia): ``systemctl restart nginx``
+
 ## Configuraciones Avanzadas
 
-### [Página web por defecto](CasosPracticosApartados/paginaWebDefecto.md)
 ### [Virtual Hosting](CasosPracticosApartados/VirtualHosting.md)
 ### [Autentificación, Autorización y Control de acceso](CasosPracticosApartados/autenAutoContAcc.md)
 ### [Seguridad](CasosPracticosApartados/seguridad.md)
