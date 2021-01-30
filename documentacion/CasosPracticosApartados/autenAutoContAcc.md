@@ -87,6 +87,8 @@ mkdir /var/www/web1/privado
 chown -R www-data:www-data /var/www/web1/ 
 ```
 
+![ficheroconfiguracion](../../imagenes/directorioPrivado.jpg)
+
 ### Crear archivo de usuario de autenticación HTTP
 
 Comenzamos creando un archivo que almacene pares de usuario y contraseña. Usaremos la utilidad de apache ``htpasswd`` para crear este archivo.
@@ -152,6 +154,53 @@ Acceso www.web1.org:
 ![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG.png)
 
 ![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG2.png)
+
+## Ejercicio H
+
+- www.web1.org contiene un directorio llamado privado.
+- Desde la red externa pide autorización y desde la red interna NO.
+
+<!-- ### Configuración del Virtual Host de www.web1.org
+
+![ficheroconfiguracion](../../imagenes/configuracionEjercicioG.png)
+
+**Quitando los comentarios y lineas en blanco así quedaría nuestro sitio virtual:**
+
+```nginx
+server {
+        listen 80;
+        listen [::]:80;
+        root /var/www/web1;
+        index index.html index.htm index.nginx-debian.html;
+        server_name www.web1.org;
+        location / {
+                try_files $uri $uri/ =404;
+                }
+}
+location /privado {
+		auth_basic           	"Restricted Access!";
+    		auth_basic_user_file 	/etc/nginx/conf.d/.htpasswd; 
+	}
+```
+[Clic para descargar configuración](../../ficherosConfiguracion/web1.org.EjercicioG.conf)
+
+### Recargarmos el servicio de Nginx
+
+```bash
+systemctl reload nginx.service
+systemctl status nginx.service
+```
+![ficheroconfiguracion](../../imagenes/servicioEjerG.png)
+
+### Comprobación
+
+#### Cliente-red externa
+
+Acceso www.web1.org:
+
+![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG.png)
+
+![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG2.png) -->
 
 ________________________________________
 *[Volver atrás...](../CasosPracticos.md)*
