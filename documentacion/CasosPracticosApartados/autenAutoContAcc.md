@@ -52,7 +52,7 @@ Acceso www.web1.org:
 
 Acceso www.web2.org:
 
-![ficheroconfiguracion](../../imagenes/web2Restricciones.png)
+![ficheroconfiguracion](../../imagenes/accesoWeb2EjercicioF.jpg)
 ________________________________________
 *[Volver atrás...](../CasosPracticos.md)*
 
