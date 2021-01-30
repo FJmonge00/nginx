@@ -81,12 +81,12 @@ Comprobamos que ``apache2-utils`` se encuentra instalado para poder usar ``htpas
 *Para RHEL y Centos 8 : ``httpd-tools``*
 
 ```bash
-apt install apache2-
+apt policy apache2-utils
 ```
 *Si no esta instalado...*
 
 ```bash
-apt policy apache2-utils
+apt install apache2-utils
 ```
 
 #### Creamos usuarios
