@@ -51,7 +51,7 @@ systemctl status nginx.service
 ```
 ![servicio nginx](../imagenes/servicioNginx.jpg)
 
-### Ficheros de configuración.
+ ### Ficheros de configuración.
 
 ```bash
 ls -la --color /etc/nginx/
