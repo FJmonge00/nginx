@@ -2,7 +2,7 @@
 
 ![logo nginx](./imagenes/NginxLogo.png)
 ## Descripción
-El proyecto consiste en estudiar el servidor web Nginx.*Asignatura: SRI*
+Este repositorio lo utilizaré para un proyecto en el que estudiaré el servidor web Nginx, los distintos puntos en los que está estructurado están ordenados por la condiciones de la actividad. **Asignatura: SRI (*Servicios en Red*)**
 
 ## Índice
 ### [1.- Introducción.](documentacion/introduccion.md)
@@ -14,5 +14,6 @@ El proyecto consiste en estudiar el servidor web Nginx.*Asignatura: SRI*
 ## Conclusión
 > Lorem ipssum lorem lorem Lorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremvvvv
 
+
 ________________________________________
-*[Volver al índice...](../README.md)*
+*[¿Te interesa saber de Apache 2.4?...](https://github.com/FJmonge00/HerramientasHTTP_SRI)*
