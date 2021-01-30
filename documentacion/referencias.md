@@ -8,5 +8,6 @@
 - <https://www.ionos.es>
 - <https://chachocool.com>
 - <https://kinsta.com>
+- [Pelado Nerd YouTube](https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g)
 ________________________________________
 *[Volver al índice...](../README.md)*
