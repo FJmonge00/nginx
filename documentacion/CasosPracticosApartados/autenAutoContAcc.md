@@ -149,9 +149,9 @@ systemctl status nginx.service
 
 Acceso www.web1.org:
 
-![ficheroconfiguracion](../../imagenes/configuracionEjercicioG.png)
+![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG.png)
 
-![ficheroconfiguracion](../../imagenes/configuracionEjercicioG2.png)
+![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG2.png)
 
 ________________________________________
 *[Volver atrás...](../CasosPracticos.md)*
