@@ -64,7 +64,6 @@ Acceso www.web2.org:
 - www.web1.org contiene un directorio llamado privado.
 - Configura una autentificación básica. Sólo puede acceder usuarios válidos.
 
-
 ### Paso previo...
 
 Comprobamos que ``apache2-utils`` se encuentra instalado para poder usar ``htpasswd`` .
@@ -154,6 +153,12 @@ Acceso www.web1.org:
 ![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG.png)
 
 ![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG2.png)
+
+#### Posibles errores
+
+>**Importante** En Nginx por defecto esta desactivada la opción de indexar directorios, si no añadimos ningún fichero index en /privado nos dará error `forbiden` no confundir con la alerta de usuario no autorizado. 
+
+![ficheroconfiguracion](../../imagenes/posibleError.jpg)
 
 ## Ejercicio H
 
