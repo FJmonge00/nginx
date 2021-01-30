@@ -9,5 +9,7 @@
 - <https://chachocool.com>
 - <https://kinsta.com>
 - [Pelado Nerd YouTube](https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g)
+- <https://www.evaristogz.com>
+- <https://help.dreamhost.com>
 ________________________________________
 *[Volver al índice...](../README.md)*
