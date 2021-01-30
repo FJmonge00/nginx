@@ -68,6 +68,7 @@ Acceso www.web2.org:
 ### Paso previo...
 
 Comprobamos que ``apache2-utils`` se encuentra instalado para poder usar ``htpasswd`` .
+
 *Para RHEL y Centos 8 : ``httpd-tools``*
 
 ```bash
@@ -99,7 +100,7 @@ htpasswd -c /etc/nginx/conf.d/.htpasswd usuario01
 *Para crear un segundo usuario NO usar la opción -c.*(Unicamente usar la primera vez para crear el fichero)**
 
 ```bash
-htpasswd /etc/nginx/conf.d/.htpasswd admin
+htpasswd /etc/nginx/conf.d/.htpasswd usuario02
 ```
 
 ### Comprobamos los usuarios creados
@@ -108,7 +109,9 @@ htpasswd /etc/nginx/conf.d/.htpasswd admin
 cat /etc/nginx/conf.d/.htpasswd
 ```
 
-### Configuración del Virtual Host
+![anadirUsuarios](../../imagenes/anadirUsuarios.jpg)
+
+### Configuración del Virtual Host de www.web1.org
 
 ![ficheroconfiguracion](../../imagenes/coniguracionEjercicioG.png)
 
