@@ -64,9 +64,8 @@ Acceso www.web2.org:
 - www.web1.org contiene un directorio llamado privado.
 - Configura una autentificación básica. Sólo puede acceder usuarios válidos.
 
-### Creamos el directorio privado
 
-#### Paso previo...
+### Paso previo...
 
 Comprobamos que ``apache2-utils`` se encuentra instalado para poder usar ``htpasswd`` .
 *Para RHEL y Centos 8 : ``httpd-tools``*
@@ -80,16 +79,18 @@ apt policy apache2-utils
 apt install apache2-utils
 ```
 
+### Creamos el directorio privado
+
 ```bash
 mkdir /var/www/web1/privado
 chown -R www-data:www-data /var/www/web1/ 
 ```
 
-#### Crear archivo de usuario de autenticación HTTP
+### Crear archivo de usuario de autenticación HTTP
 
 Comenzamos creando un archivo que almacene pares de usuario y contraseña. Usaremos la utilidad de apache ``htpasswd`` para crear este archivo.
 
-#### Creamos usuarios
+### Creamos usuarios
 
 ```bash
 htpasswd -c /etc/nginx/conf.d/.htpasswd usuario01
@@ -100,7 +101,8 @@ htpasswd -c /etc/nginx/conf.d/.htpasswd usuario01
 ```bash
 htpasswd /etc/nginx/conf.d/.htpasswd admin
 ```
-*Comprobamos los usuarios creados*
+
+### Comprobamos los usuarios creados
 
 ```bash
 cat /etc/nginx/conf.d/.htpasswd
