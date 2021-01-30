@@ -64,7 +64,7 @@ server {
 
 *Al copiar NO copian las tabulaciones*
 
-[Clic para descargar configuración](../../ficherosConfiguracion/web1.org)
+[Clic para descargar configuración](../../ficherosConfiguracion/web1.org.EjercicioE.conf)
 
 🤔 **¿Tienes Servidor DNS?** 🤔
 > Ya que en este momento no cuento con un servidor DNS donde añadir a la zona directa e inversa de estos 2 nuevos dominios, haré uso del fichero ``/etc/hosts`` :

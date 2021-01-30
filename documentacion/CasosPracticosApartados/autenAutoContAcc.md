@@ -7,7 +7,11 @@
 - www.web1.org se puede acceder desde la red externa y la red interna.
 - www.web2.org sólo se puede acceder desde la red interna.
 
+### Coniguración del VirtualHost
+
 ![ficheroconfiguracion](../../imagenes/web2Restricciones.png)
+
+**Quitando los comentarios y lineas en blanco así quedaría nuestro sitio virtual:**
 
 ```nginx
 server {
@@ -25,6 +29,13 @@ server {
         }
 }
 ```
+
+[Clic para descargar configuración](../../ficherosConfiguracion/web2.org.EjercicioF.conf)
+
+### Acceso a la web desde fuera de la red interna.
+
+![ficheroconfiguracion](../../imagenes/web2Restricciones.png)
+
 ________________________________________
 *[Volver atrás...](../CasosPracticos.md)*
 
