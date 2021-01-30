@@ -11,5 +11,6 @@
 - [Pelado Nerd YouTube](https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g)
 - <https://www.evaristogz.com>
 - <https://help.dreamhost.com>
+- <https://es.linux-console.net>
 ________________________________________
 *[Volver al índice...](../README.md)*
