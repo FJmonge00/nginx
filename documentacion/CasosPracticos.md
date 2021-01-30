@@ -79,6 +79,8 @@ firefox localhost #Para abrir la página con firefox
 *ó*
     - Reiniciamos el servicio (el servicio no estará disponible mientras se reinicia): ``systemctl restart nginx``
 
+![Acceso nginx](../imagenes/accesoDefecto.png)
+
 ## Configuraciones Avanzadas
 
 ### [Virtual Hosting](CasosPracticosApartados/VirtualHosting.md)
