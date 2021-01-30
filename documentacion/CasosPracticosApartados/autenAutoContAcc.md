@@ -75,7 +75,7 @@ chown -R www-data:www-data /var/www/web1/
 
 Comenzamos creando un archivo que almacene pares de usuario y contraseña. Usaremos la utilidad de apache ``htpasswd`` para crear este archivo.
 
-*Paso previo...*
+#### Paso previo...
 
 Comprobamos que ``apache2-utils`` se encuentra instalado para poder usar ``htpasswd`` .
 *Para RHEL y Centos 8 : ``httpd-tools``*
