@@ -84,5 +84,5 @@ firefox www.web2.org
 
 ________________________________________
 *[Volver atrás...](../CasosPracticos.md)*
-________________________________________
+
 *[Ir a Siguiente punto...](./seguridad.md)*
