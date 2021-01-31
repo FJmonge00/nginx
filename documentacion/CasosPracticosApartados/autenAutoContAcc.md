@@ -131,11 +131,11 @@ server {
         location / {
                 try_files $uri $uri/ =404;
                 }
-}
 location /privado {
 		auth_basic           	"Restricted Access!";
     		auth_basic_user_file 	/etc/nginx/conf.d/.htpasswd; 
 	}
+}
 ```
 [Clic para descargar configuración](../../ficherosConfiguracion/web1.org.EjercicioG.conf)
 
@@ -175,7 +175,7 @@ Acceso www.web1.org:
 
 >Dejo la URL para más información sobre la directiva ``satisfy`` por parte de [Nginx.org](http://nginx.org/en/docs/http/ngx_http_core_module.html#satisfy) .
 
-<!-- ![ficheroconfiguracion](../../imagenes/configuracionEjercicioG.png)
+![ficheroconfiguracion](../../imagenes/EjercicioHConfiguracion.png)
 
 **Quitando los comentarios y lineas en blanco así quedaría nuestro sitio virtual:**
 
@@ -189,13 +189,16 @@ server {
         location / {
                 try_files $uri $uri/ =404;
                 }
-}
 location /privado {
-		auth_basic           	"Restricted Access!";
-    		auth_basic_user_file 	/etc/nginx/conf.d/.htpasswd; 
-	}
+                satisfy any; #Al poner esta directiva en any accederá si se cumple alguna de las reglas establecidas
+                allow 192.168.3.0/24;
+                deny all;
+                auth_basic              "Restricted Access!";
+                auth_basic_user_file    /etc/nginx/conf.d/.htpasswd;
+        }
+}
 ```
-[Clic para descargar configuración](../../ficherosConfiguracion/web1.org.EjercicioG.conf)
+[Clic para descargar configuración](../../ficherosConfiguracion/web1.org.EjercicioH.conf)
 
 ### Recargarmos el servicio de Nginx
 
@@ -213,8 +216,13 @@ Acceso www.web1.org:
 
 ![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG.png)
 
-![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG2.png) --> -->
+![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG2.png)
 
+#### Cliente-red Interna
+
+Acceso www.web1.org:
+
+![ficheroconfiguracion](../../imagenes/pruebaEjercicioH.gif)
 ________________________________________
 *[Volver atrás...](../CasosPracticos.md)*
 
