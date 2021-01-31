@@ -9,6 +9,8 @@
 
 ### Configuración del Virtual Host
 
+*Web1 no configuramos nada respecto al punto anterior* [Clic para ver web1](../../../../imagenes/web1.png)
+
 ![ficheroconfiguracion](../../imagenes/web2Restricciones.png)
 
 **Quitando los comentarios y lineas en blanco así quedaría nuestro sitio virtual:**
@@ -29,6 +31,7 @@ server {
         }
 }
 ```
+
 [Clic para descargar configuración](../../ficherosConfiguracion/web2.org.EjercicioF.conf)
 
 ### Recargarmos el servicio de Nginx
