@@ -1,5 +1,7 @@
 <img src="../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
+# Esquema de red
+
 ![Diagrama de red](../imagenes/diagramaRed.jpg)
 
 |Equipo                |IP          |Red           |
