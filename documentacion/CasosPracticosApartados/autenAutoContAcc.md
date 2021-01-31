@@ -173,9 +173,9 @@ Acceso www.web1.org:
 
 >Esta directiva es importante que la cambiemos __**unicamente en la localización de /privado**__ dentro de este sitio virtual. Los clientes que accedan a los recursos que estén ``www.web1.org`` y en concreto ``/privado`` tendrán que cumplir al menos una de las reglas definidas. En este casó serán: Que pertenezca a la red 192.168.3.0/24 ó que se identifiquen con usuario y contraseña.(Si aplica estas normas al sitio virtual por completo pueda dar pié a grandes fallos de seguridad.)
 
->Dejo la URL de está información por parte de [Nginx.org](http://nginx.org/en/docs/http/ngx_http_core_module.html#satisfy)
+>Dejo la URL para más información sobre la directiva ``satisfy`` por parte de [Nginx.org](http://nginx.org/en/docs/http/ngx_http_core_module.html#satisfy) .
 
-![ficheroconfiguracion](../../imagenes/configuracionEjercicioG.png)
+<!-- ![ficheroconfiguracion](../../imagenes/configuracionEjercicioG.png)
 
 **Quitando los comentarios y lineas en blanco así quedaría nuestro sitio virtual:**
 
@@ -213,7 +213,7 @@ Acceso www.web1.org:
 
 ![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG.png)
 
-![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG2.png) -->
+![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG2.png) --> -->
 
 ________________________________________
 *[Volver atrás...](../CasosPracticos.md)*
