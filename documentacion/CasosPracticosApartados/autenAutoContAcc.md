@@ -153,7 +153,7 @@ systemctl status nginx.service
 
 Acceso www.web1.org/privado:
 
-![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG.png)
+![ficheroconfiguracion](../../imagenes/pruebaEjercicio.gif)
 
 ![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG2.png)
 
