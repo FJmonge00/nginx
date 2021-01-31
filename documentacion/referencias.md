@@ -1,6 +1,7 @@
 <img src="../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
 ## Referencias
+- <https://docs.nginx.com>
 - <https://docs.bluehosting.cl>
 - <https://www.redeszone.ne>
 - <https://markdown.es>
@@ -12,5 +13,6 @@
 - <https://www.evaristogz.com>
 - <https://help.dreamhost.com>
 - <https://es.linux-console.net>
+- <https://tutecnoinfor.wordpress.com>
 ________________________________________
 *[Volver al índice...](../README.md)*

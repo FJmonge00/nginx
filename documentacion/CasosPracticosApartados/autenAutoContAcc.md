@@ -168,7 +168,10 @@ Acceso www.web1.org:
 - www.web1.org contiene un directorio llamado privado.
 - Desde la red externa pide autorización y desde la red interna NO.
 
-<!-- ### Configuración del Virtual Host de www.web1.org
+> **IMPORTANTE**
+> Para poder realizar esta actividad haremos uso de la directiva ``satisfy``, esta por defecto se encuentra con valor ``All``, esto significa que se deben cumplir todas las condiciones que se definen en la configuración del sitio virtual, (Semejante a definir las reglas con un `AND`). Para poder hacer lo que no pide este ejercicio cambiaremos el valor de esta directiva por ``any``, es decir, que se cumpla al menos una de las condiciones, (semejante a enumerar las reglas con un `OR`).Esta directiva es importante que la cambiemos **unicamente en la localización de /privado** dentro de este sitio virtual. Los clientes que accedan a los recursos que estén ``www.web1.org`` y en concreto ``/privado`` tendrán que cumplir al menos una de las reglas definidas. En este casó serán: Que pertenezca a la red 192.168.3.0/24 ó que se identifiquen con usuario y contraseña.(Si aplica estas normas al sitio virtual por completo pueda dar pié a grandes fallos de seguridad.)
+
+Dejo la URL de está información por parte de [Nginx.org](http://nginx.org/en/docs/http/ngx_http_core_module.html#satisfy)
 
 ![ficheroconfiguracion](../../imagenes/configuracionEjercicioG.png)
 
