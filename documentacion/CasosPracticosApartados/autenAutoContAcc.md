@@ -9,7 +9,7 @@
 
 ### Configuración del Virtual Host
 
-*Web1 no configuramos nada respecto al punto anterior* [Clic para ver web1](../../../../imagenes/web1.png)
+*Web1 no configuramos nada respecto al punto anterior* [Clic para ver web1](https://github.com/FJmonge00/nginx_SRI/blob/master/imagenes/web1.png)
 
 ![ficheroconfiguracion](../../imagenes/web2Restricciones.png)
 
