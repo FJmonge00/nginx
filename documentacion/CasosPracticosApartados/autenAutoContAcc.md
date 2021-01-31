@@ -151,7 +151,7 @@ systemctl status nginx.service
 
 #### Cliente-red externa
 
-Acceso www.web1.org:
+Acceso www.web1.org/privado:
 
 ![ficheroconfiguracion](../../imagenes/accedoWeb1EjercicioG.png)
 
@@ -212,14 +212,14 @@ systemctl status nginx.service
 
 #### Cliente-red externa
 
-Acceso www.web1.org:
+Acceso www.web1.org/privado:
 
 ![PruebaRedExterna](../../imagenes/pruebaEjercicioHRedExterna.gif)
 
 
 #### Cliente-red Interna
 
-Acceso www.web1.org:
+Acceso www.web1.org/privado:
 
 ![PruebaRedInterna](../../imagenes/pruebaEjercicioH.gif)
 ________________________________________
