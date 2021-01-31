@@ -1,6 +1,6 @@
 <img src="../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
-## Referencias
+## Referencias 👀
 - <https://docs.nginx.com>
 - <https://docs.bluehosting.cl>
 - <https://www.redeszone.ne>

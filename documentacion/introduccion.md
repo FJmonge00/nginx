@@ -1,6 +1,6 @@
 <img src="../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
-# Introducción
+# Introducción 🔎
 ## ¿Qué es nginx?
 Nginx desarrollado por *Igor Sysoev*, se **lanzó** por primera vez en **2004**. Nginx concentra su esfuerzo en ser un servidor que se caracterice por un **rendimiento muy alto**, que sirva al **mayor número de clientes** posible **al mismo tiempo** y que, además, consuma la menor cantidad de **recursos**.
 

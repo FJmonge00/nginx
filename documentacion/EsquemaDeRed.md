@@ -1,6 +1,6 @@
 <img src="../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
-# Esquema de red
+# Esquema de red 🌐
 
 ![Diagrama de red](../imagenes/diagramaRed.jpg)
 
