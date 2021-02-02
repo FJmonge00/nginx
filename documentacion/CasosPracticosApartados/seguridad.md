@@ -9,6 +9,16 @@ Se recomienda encarecidamente que el tráfico cifrado utilice solo protocolos TL
 ## Protocolos de cifrado
 <!-- Dejo una pequeña tabla con tipos de cifrados: -->
 
+|Protocolo    |Soporte en Sitios Web|Seguridad                    |
+|:-----------:|:-------------------:|:---------------------------:|
+|**SSL 2.0**  |16.6% (-2.8%)        |Inseguro                     |
+|**SSL 3.0**  |60.6% (-37.4%)       |Inseguro                     |
+|**TLS 1.0**  |99.5% (±0.2%)        |Depende del cifrado y cliente|
+|**TLS 1.1**  |45.4% (+3.4%)        |Depende del cifrado          |
+|**TLS 1.2**  |48.1% (+3.8%)        |Depende del cifrado          |
+
+[Fuente](https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte) *17 de febrero de 2018*
+
 ## Generar certificado y claves
 Con el siguiente comando generamos tanto la clave privada como el certificado con openssl
 
