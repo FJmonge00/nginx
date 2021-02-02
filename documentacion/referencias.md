@@ -14,5 +14,7 @@
 - <https://help.dreamhost.com>
 - <https://es.linux-console.net>
 - <https://tutecnoinfor.wordpress.com>
+- <https://enmilocalfunciona.io>
+- <https://www.sololinux.es>
 ________________________________________
 *[Volver al índice...](../README.md)*
