@@ -12,7 +12,10 @@ Este repositorio lo utilizaré para un proyecto en el que estudiaré el servidor
 ### [5.- Referencias. 👀](documentacion/referencias.md)
 
 ## Conclusión
-> Lorem ipssum lorem lorem Lorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremLorem ipssum lorem loremvvvv
+> No podemos decir que un servicio web es mejor que el otro, cada uno tiene sus ventajas e inconvenientes, el usar uno u otro dependerá de nuestras necesidades y posibilidades, podemos asegurar que un servicio web con inmensas cantidades de usuarios y conexiones simultaneas tendremos como mejor candidato a Nginx, si necesitamos una web flexible y con un tipo de tráfico moderado decantaremos por apache, Apache destaca por su grandísima flexibilidad y facilidad de configuración respecto al resto de servicios Web y sus años de uso lo avalan. 
+Destacar también que apache es OpenSource con una inmensa comunidad atrás, y millares de páginas de documentación. En el lado opuesto tenemos a nginx, no cuenta con esta virtud pero si con un Soporte Oficial en su versión de pago.
+
+La decisión está en tus manos...
 
 
 ________________________________________
