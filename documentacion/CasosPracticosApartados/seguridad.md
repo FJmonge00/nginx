@@ -1,6 +1,6 @@
 <img src="../../imagenes/MI-LICENCIA88x31.png" style="float: left; margin-right: 10px;" />
 
-# Seguridad (BETA)
+# Seguridad
 
 Se recomienda encarecidamente que el tráfico cifrado utilice solo protocolos TLS más nuevos, en lugar de SSL. Ambas versiones de SSL ampliamente disponibles en la actualidad (SSLv2 y SSLv3) tienen fallas de seguridad graves y nunca deben usarse en entornos de producción.
 
@@ -87,7 +87,7 @@ ssl_session_timeout 10m;
 ssl_session_cache shared:SSL:12m;
 ```
 
-En estas pocas líneas e intentado explicar los mejor posibles algunas de las tantas directivas posibles que existen. Dejo URL Nginx para consultar toda esta documentación:
+En estas pocas líneas e intentado explicar los mejor posible algunas de las tantas directivas posibles que existen para mejorar tanto la seguridad como la disponibilidad de mi servidor web Nginx. Dejo URL Nginx para consultar toda esta documentación:
 
 <http://nginx.org/en/docs/http/ngx_http_ssl_module.html>
 
