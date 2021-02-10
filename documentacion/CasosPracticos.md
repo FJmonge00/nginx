@@ -28,7 +28,7 @@ apt autoremove
 ```bash
 apt update
 apt-get install nginx -y
-systemctl enabled nginx.service
+systemctl enable nginx.service
 systemctl status nginx.service
 ```
 
